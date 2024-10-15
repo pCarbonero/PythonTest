@@ -44,3 +44,6 @@ def test_caracter_espacio():
 
 def test_caracter_frases():
     assert encriptacion('hola que tal', 1) == 'ipmb rvf ubm'
+
+def test_caracter_frases2():
+    assert encriptacion('zipi y zape', 1) == 'ajqj z abqf'
